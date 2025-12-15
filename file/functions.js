@@ -48,8 +48,8 @@ function timeCountdown(targetDate) {
 }
 
 $(function () {
-    // var birthday = new Date(2025, 11, 20, 0, 0, 0); // Dec 20, 2025 12:00 AM
-    var birthday = new Date(2025, 11, 15, 11, 0, 0);
+    var birthday = new Date(2025, 11, 20, 0, 0, 0); // Dec 20, 2025 12:00 AM
+    // var birthday = new Date(2025, 11, 15, 11, 0, 0);
 
     setInterval(function () {
         timeCountdown(birthday);
